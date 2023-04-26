@@ -6,9 +6,9 @@ By contributing to this project, you accept and agree the the terms and conditio
 
 ## Problems, suggestions and questions in Issues
 
-You don't need to change any of our code or documentation to be a contributor. Please help development by reporting problems, suggesting changes and asking questions. To do this, you can [create a GitLab Issue](https://docs.gitlab.com/ee/user/project/issues/index.html#issues) for this project in the [issues section](https://gitlab.com/delta10/project-template/issues).
+You don't need to change any of our code or documentation to be a contributor. Please help development by reporting problems, suggesting changes and asking questions. To do this, you can [create a GitHub Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for this project in the [issues section](https://github.com/delta10/signalen-bi/issues).
 
-## Documentation and code in Merge Requests
+## Documentation and code in Pull Requests
 
 If you want to add to the documentation or code of one of our projects you should push a branch and make a Merge Request. If you never used GitLab, get up to speed by reading about the [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/).
 

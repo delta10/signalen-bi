@@ -1,4 +1,4 @@
-# Signalen Business Intelligence (BI)
+# Signalen - Business Intelligence (BI)
 
 This repository contains example queries for [Signalen](https://www.signalen.org) to easily create Business Intelligence (BI) reports and dashboards.
 
