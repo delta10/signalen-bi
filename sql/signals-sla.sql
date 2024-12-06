@@ -24,6 +24,7 @@ SELECT
         WHEN stat.state :: text = 'reopen requested' :: text THEN 'Verzoek tot heropenen' :: text
         WHEN stat.state :: text = 'reaction requested' :: text THEN 'Reactie gevraagd' :: text
         WHEN stat.state :: text = 'reaction received' :: text THEN 'Reactie ontvangen' :: text
+        WHEN stat.state :: text = 'forward to external' :: text THEN 'Doorgezet naar extern' :: text
         WHEN stat.state :: text = '' :: text THEN 'Leeg' :: text
         ELSE NULL :: text
     END AS status
