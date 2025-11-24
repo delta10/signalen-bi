@@ -14,4 +14,7 @@ GROUP BY
     sigdep.id,
     sigdep.created_at,
     sigdep.updated_at,
-    sigdep._signal_id;
+    sigdep._signal_id
+ORDER BY
+    sigdep._signal_id,
+    sigdep.id DESC

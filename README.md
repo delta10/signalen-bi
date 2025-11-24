@@ -14,7 +14,4 @@ The following queries can be used for general purposes:
 
 ## CSV export
 
-The following queries replicate the CSV export function of Signalen:
-
-- [categories.sql](./csv/categories.sql)
-- [routing-departments.sql](./csv/routing-departments.sql)
+In the folder [./csv](./csv) you can find the SQL statements that replicate the CSV-export functionality of Signalen.

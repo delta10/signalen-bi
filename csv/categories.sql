@@ -1,14 +1,14 @@
 SELECT
     cas.id,
-    maincat.name AS main_category,
-    subcat.name AS sub_category,
+    maincat.name AS main,
+    subcat.name AS sub,
+    STRING_AGG (dep.name, ', ') AS departments,
     cas.created_at,
     cas.updated_at,
     cas.extra_properties,
     cas._signal_id,
     cas.deadline,
-    cas.deadline_factor_3,
-    STRING_AGG (dep.name, ', ') AS departments
+    cas.deadline_factor_3
 FROM
     signals_categoryassignment cas
     JOIN signals_category subcat ON subcat.id = cas.category_id
